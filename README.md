@@ -31,7 +31,7 @@ The virtual environment was developed using Unity 3D. We use the HTC SRanipal SD
 Participants were presented with the informed consent form and provided with an overview of the study activities. They were informed of their right to terminate the study if they felt uncomfortable at any point. Upon signing the consent form, participants completed a background questionnaire comprising initial Simulator Sickness Questionnaire (SSQ), demographic inquiries, and disability-related questions. Subsequently, participants were outfitted with the HTC Vive Pro Eye headset, physiological monitoring equipment, and controllers before proceeding to a tutorial session.
 
 #### Tutorial
-Prior to the 12-minute VR session, participants underwent a brief 2-minute virtual tutorial elucidating the tasks they would perform. T
+Prior to the 12-minute VR session, participants underwent a brief 2-minute virtual tutorial elucidating the tasks they would perform.
 
 ### Fast Motion Sickness Scale (FMS)
 Participants rated their level of cybersickness on a scale of 1-10, whenever a pre-recorded voice prompt was played at each $30$ seconds interval during the VR simulations.
