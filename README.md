@@ -39,6 +39,10 @@ Participants rated their level of cybersickness on a scale of 1-10, whenever a p
 ### Eye Tracking and  Head Tracking
 Utilizing the SRanipal SDK and Tobii eye tracking technology, we captured detailed eye-tracking metrics, including pupil diameter and gaze direction, sampled at 60 Hz.
 
+### RelaxVR Demo 
+Automatic mode: https://drive.google.com/file/d/1mzK4MxbSnwvOyPSL7omY_IU0VqXAoGr1/view?usp=sharing 
+Interactive mode: https://drive.google.com/file/d/1DN3EUEXb9wSHj1EyFrFksQTMWoP2qqQT/view?usp=sharing
+
 
 
 
