@@ -41,6 +41,7 @@ Utilizing the SRanipal SDK and Tobii eye tracking technology, we captured detail
 
 ### RelaxVR Demo 
 Automatic mode: https://drive.google.com/file/d/1mzK4MxbSnwvOyPSL7omY_IU0VqXAoGr1/view?usp=sharing 
+
 Interactive mode: https://drive.google.com/file/d/1DN3EUEXb9wSHj1EyFrFksQTMWoP2qqQT/view?usp=sharing
 
 
