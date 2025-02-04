@@ -1,8 +1,6 @@
 # MazeSick_Dataset
 
-We collected the data for our MazeSick dataset while participants navigated virtual mazes with a smooth locomotion technique (e.g., using the controller) and performed coin collection tasks. The purpose of this data collection was to to facilitate the training of the cybersickness prediction models and open source and thus can be used by other researchers in the community for further research
-
-investigate the relationships between cybersickness, working memory, attention, and cognitive load. Figure 1 shows the timeline of the 15 minute session. In the following sections, we provide details of our hypotheses, the virtual environment, the tasks, the study procedure, metrics, and analysis.
+We collected the data for our MazeSick dataset while participants navigated virtual mazes with a smooth locomotion technique (e.g., using the controller) and performed coin collection tasks. The purpose of this data collection was to to facilitate the training of the cybersickness prediction models and open source and thus can be used by other researchers in the community for further research.
 
 ### Participants
 We utilized 60 (39 M, 21 F) participants. The participants were recruited from the local area and had a mean age of 23.6 with a standard deviation of 3.21. The participants came from various demographic backgrounds. Thirty four of the sixty participants said they had previously used VR equipment while 26 had no prior experience of using VR.
