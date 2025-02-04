@@ -1,6 +1,6 @@
 # MazeSick_Dataset
 
-We collected the data for our MazeSick dataset while participants navigated virtual mazes with a smooth locomotion technique (e.g., using the controller) and performed coin collection tasks, as shown in the Figure below. The purpose of this data collection was to to facilitate the training of the cybersickness prediction models and open source and thus can be used by other researchers in the community for further research.
+We collected the data for our MazeSick dataset while participants navigated virtual mazes with a smooth locomotion technique (e.g., using the controller) and performed coin collection tasks, as shown in the Figure below. The purpose of this data collection was to to facilitate the training of the cybersickness prediction models for RelaxVR framework and open source the dataset and thus can be used by other researchers in the community for further research.
 ![Maze environment _new](https://github.com/user-attachments/assets/1991af37-1492-4c54-8385-ee8c25963359)
 
 ### Participants
