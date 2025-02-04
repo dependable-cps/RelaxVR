@@ -1,6 +1,7 @@
 # MazeSick_Dataset
 
-We collected the data for our MazeSick dataset while participants navigated virtual mazes with a smooth locomotion technique (e.g., using the controller) and performed coin collection tasks. The purpose of this data collection was to to facilitate the training of the cybersickness prediction models and open source and thus can be used by other researchers in the community for further research.
+We collected the data for our MazeSick dataset while participants navigated virtual mazes with a smooth locomotion technique (e.g., using the controller) and performed coin collection tasks, as shown in the Figure below. The purpose of this data collection was to to facilitate the training of the cybersickness prediction models and open source and thus can be used by other researchers in the community for further research.
+![Maze environment _new](https://github.com/user-attachments/assets/1991af37-1492-4c54-8385-ee8c25963359)
 
 ### Participants
 We utilized 60 (39 M, 21 F) participants. The participants were recruited from the local area and had a mean age of 23.6 with a standard deviation of 3.21. The participants came from various demographic backgrounds. Thirty four of the sixty participants said they had previously used VR equipment while 26 had no prior experience of using VR.
