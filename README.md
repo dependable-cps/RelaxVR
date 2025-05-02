@@ -45,9 +45,7 @@ Automatic mode: https://drive.google.com/file/d/1mzK4MxbSnwvOyPSL7omY_IU0VqXAoGr
 Interactive mode: https://drive.google.com/file/d/1DN3EUEXb9wSHj1EyFrFksQTMWoP2qqQT/view?usp=sharing
 
 ## 📋 Click here to request access to the MazeSick dataset
-![MazeSick dataset]([https://forms.gle/your-form-id](https://docs.google.com/forms/d/e/1FAIpQLSfewFMiJLWpfGKqTc0EmC915emnBLN3SCqJHof-nKAGjAvglg/viewform)
-
-
+MazeSick dataset access link: https://docs.google.com/forms/d/e/1FAIpQLSfewFMiJLWpfGKqTc0EmC915emnBLN3SCqJHof-nKAGjAvglg/viewform
 
 
 
