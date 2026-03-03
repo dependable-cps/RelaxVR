@@ -9,13 +9,13 @@
 ## Table of Contents
 * [Introduction](#introduction)
 * [Participants](#participants)
+* [Dataset Access](#dataset-access)
 * [Virtual Environment](#virtual-environment)
 * [Study Tasks](#study-tasks)
 * [Apparatus](#apparatus)
 * [Procedure](#procedure)
 * [Data Collection](#data-collection)
 * [RelaxVR Demo](#relaxvr-demo)
-* [Dataset Access](#dataset-access)
 * [Citation](#citation)
 * [Contacts](#contacts)
 * [License](#license)
@@ -32,6 +32,15 @@ We collected the MazeSick dataset while participants navigated virtual mazes usi
 ## Participants
 
 We recruited 60 participants (39 M, 21 F) from the local area. The mean age was 23.6 years (SD = 3.21). Participants came from various demographic backgrounds. Thirty-four of the sixty had prior VR experience, while the remaining 26 had none.
+
+---
+
+## Dataset Access
+
+To request access to the MazeSick dataset:
+
+1. Fill out the request form: **[MazeSick Dataset Access Form](https://forms.gle/jvbiqP87az2xSJdm7)**
+2. Send an email to [hoquek@missouri.edu](mailto:hoquek@missouri.edu).
 
 ---
 
@@ -88,15 +97,6 @@ Using the HTC SRanipal SDK and Tobii eye tracking technology, we captured detail
 
 - **Automatic mode:** [Watch on Google Drive](https://drive.google.com/file/d/1mzK4MxbSnwvOyPSL7omY_IU0VqXAoGr1/view?usp=sharing)
 - **Interactive mode:** [Watch on Google Drive](https://drive.google.com/file/d/1DN3EUEXb9wSHj1EyFrFksQTMWoP2qqQT/view?usp=sharing)
-
----
-
-## Dataset Access
-
-To request access to the MazeSick dataset:
-
-1. Fill out the request form: **[MazeSick Dataset Access Form](https://forms.gle/jvbiqP87az2xSJdm7)**
-2. Send an email to [hoquek@missouri.edu](mailto:hoquek@missouri.edu).
 
 ---
 
