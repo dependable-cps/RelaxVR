@@ -105,13 +105,16 @@ To request access to the MazeSick dataset:
 If this dataset is useful for your work, please cite our paper:
 
 <div class="highlight highlight-text-bibtex"><pre>
-@article{kundu2025relaxvr,
-  title={RelaxVR: Cybersickness Reduction in Immersive Virtual Reality through Explainable AI and Large Language Models},
-  author={Kundu, Ripan Kumar and Hoque, Khaza Anuarul},
-  journal={IEEE Access},
+@ARTICLE{10985746,
+  author={Kumar Kundu, Ripan and Anuarul Hoque, Khaza},
+  journal={IEEE Access}, 
+  title={RelaxVR: Cybersickness Reduction in Immersive Virtual Reality Through Explainable AI and Large Language Models}, 
   year={2025},
-  publisher={IEEE}
-}
+  volume={13},
+  number={},
+  pages={84689-84712},
+  keywords={Cybersickness;Gaze tracking;Solid modeling;Real-time systems;Heart rate;Explainable AI;Engines;Feature extraction;Pupils;Large language models;Cybersickness;explainable AI;virtual reality;large language model},
+  doi={10.1109/ACCESS.2025.3566958}}
 </pre></div>
 
 ---
