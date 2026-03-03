@@ -1,51 +1,135 @@
-# MazeSick_Dataset
+# MazeSick Dataset: An Open-Source VR Cybersickness Dataset for Deep Learning-Based Detection and Mitigation
 
-We collected the data for our MazeSick dataset while participants navigated virtual mazes with a smooth locomotion technique (e.g., using the controller) and performed coin collection tasks, as shown in the Figure below. The purpose of this data collection was to to facilitate the training of the cybersickness prediction models for RelaxVR framework and open source the dataset and thus can be used by other researchers in the community for further research.
-![Maze environment _new](https://github.com/user-attachments/assets/1991af37-1492-4c54-8385-ee8c25963359)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1991af37-1492-4c54-8385-ee8c25963359" alt="Maze Environment" width="1000">
+</p>
 
-### Participants
-We utilized 60 (39 M, 21 F) participants. The participants were recruited from the local area and had a mean age of 23.6 with a standard deviation of 3.21. The participants came from various demographic backgrounds. Thirty four of the sixty participants said they had previously used VR equipment while 26 had no prior experience of using VR.
+**MazeSick** is an open-source dataset collected to support training and evaluation of cybersickness prediction models in immersive virtual reality. Participants navigated virtual mazes using smooth locomotion and performed coin collection tasks, with continuous cybersickness severity ratings and eye/head tracking data recorded throughout.
 
+## Table of Contents
+* [Introduction](#introduction)
+* [Participants](#participants)
+* [Virtual Environment](#virtual-environment)
+* [Study Tasks](#study-tasks)
+* [Apparatus](#apparatus)
+* [Procedure](#procedure)
+* [Data Collection](#data-collection)
+* [RelaxVR Demo](#relaxvr-demo)
+* [Dataset Access](#dataset-access)
+* [Citation](#citation)
+* [Contacts](#contacts)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
 
-### Virtual Environment
-The virtual environment was a Dungeon-style maze created using Unity and OpenVR, which contained brick walls, brick platforms, and an open roof with an orange sky. The maze was structured as a 15 x 14 grid, where a trophy is randomly spawned. 
-The goal is to reach the trophy, which will transport the user to the next randomly generated maze. Each maze is designed so that the user must explore at least half of it to ensure a consistent level of challenge across levels. 
-The maze occupies a total area of 150 meters by 140 meters in Unity(Vector3(150, 1, 140)). Given this size, each platform within the grid measures  10 meters by 10 meters in real-life space, as Unity's default scale assigns 1 unit to 1 meter. 
-It is a single-player experience where the objective is to escape the maze. They provide options for both room-scale and smooth locomotion.
-### Study Tasks
-The primary task was navigating mazes for 12 minutes. Before starting the experiment for data collection, we briefly introduced the procedures and informed participants about the requirements. 
-The participants went through a brief 2-minute virtual tutorial or training explaining the coin collection task they had to complete. They were then instructed to use the controller to complete the maze navigation with the learned task. 
-Furthermore, We emphasized verbally reporting their discomfort on an FMS score of 0 to 10 whenever a pre-recorded voice prompt was played at each $30$ seconds interval during the VR simulations.
-Escape the Maze and performed coin collection tasks.
-### Apparatus
-We utilized an HTC-Vive Pro Eye headset to present the virtual maze, boasting a display resolution of 2880 x 1600 per eye and operating at a refresh rate of 90Hz. This headset offered a wide field of view spanning 110 degrees. 
-The audio was delivered through the integrated Vive headphones. The VR maze simulation was rendered using a computer equipped with an Intel Core i9 CPU with 128 GB of memory and an Nvidia GeForce RTX 3090 GPU. 
-The virtual environment was built using the Unity 2021.2.2f1 game engine software and OpenVR software development kit (SDK).
+---
 
-The virtual environment was developed using Unity 3D. We use the HTC SRanipal SDK and Tobii HTC Vive Devkit to capture eye and head-tracking data
+## Introduction
 
+We collected the MazeSick dataset while participants navigated virtual mazes using a smooth locomotion technique (via controller) and performed coin collection tasks. The dataset was developed to facilitate the training of cybersickness prediction models for the [RelaxVR](https://ieeexplore.ieee.org/document/10908054) framework and is open-sourced to support further research in the cybersickness and VR community.
 
-### Procedure
+---
 
-#### Study Introduction
-Participants were presented with the informed consent form and provided with an overview of the study activities. They were informed of their right to terminate the study if they felt uncomfortable at any point. Upon signing the consent form, participants completed a background questionnaire comprising initial Simulator Sickness Questionnaire (SSQ), demographic inquiries, and disability-related questions. Subsequently, participants were outfitted with the HTC Vive Pro Eye headset, physiological monitoring equipment, and controllers before proceeding to a tutorial session.
+## Participants
 
-#### Tutorial
-Prior to the 12-minute VR session, participants underwent a brief 2-minute virtual tutorial elucidating the tasks they would perform.
+We recruited 60 participants (39 M, 21 F) from the local area. The mean age was 23.6 years (SD = 3.21). Participants came from various demographic backgrounds. Thirty-four of the sixty had prior VR experience, while the remaining 26 had none.
+
+---
+
+## Virtual Environment
+
+The virtual environment was a Dungeon-style maze created using Unity and OpenVR, featuring brick walls, brick platforms, and an open roof with an orange sky. The maze was structured as a 15 × 14 grid, with a trophy randomly spawned as the level objective. Reaching the trophy transports the user to the next randomly generated maze. Each maze is designed so that the user must explore at least half of it to ensure a consistent level of challenge.
+
+The maze occupies 150 × 140 meters in Unity (Vector3(150, 1, 140)), with each grid platform measuring 10 × 10 meters. It is a single-player experience supporting both room-scale and smooth locomotion modes.
+
+---
+
+## Study Tasks
+
+The primary task was maze navigation over a 12-minute session. Before starting, participants were briefly introduced to the procedure and requirements. They then completed a 2-minute virtual tutorial explaining the coin collection task, and were instructed to use the controller to navigate and collect coins.
+
+Participants were asked to verbally report their discomfort on an FMS scale of 0–10 whenever a pre-recorded voice prompt was played at 30-second intervals during the VR simulation.
+
+---
+
+## Apparatus
+
+- **HMD:** HTC Vive Pro Eye — 2880 × 1600 resolution per eye, 90 Hz refresh rate, 110° field of view
+- **Audio:** Integrated Vive headphones
+- **Workstation:** Intel Core i9 CPU, 128 GB RAM, Nvidia GeForce RTX 3090 GPU
+- **Software:** Unity 2021.2.2f1, OpenVR SDK, HTC SRanipal SDK, Tobii HTC Vive Devkit
+
+---
+
+## Procedure
+
+### Study Introduction
+
+Participants were presented with the informed consent form and given an overview of study activities. They were informed of their right to withdraw at any time. After signing, participants completed a background questionnaire including an initial Simulator Sickness Questionnaire (SSQ), demographic questions, and disability-related questions. They were then equipped with the HTC Vive Pro Eye headset, physiological monitoring equipment, and controllers before proceeding to the tutorial.
+
+### Tutorial
+
+Prior to the 12-minute VR session, participants completed a brief 2-minute virtual tutorial explaining the tasks they would perform during the experiment.
+
+---
+
+## Data Collection
 
 ### Fast Motion Sickness Scale (FMS)
-Participants rated their level of cybersickness on a scale of 1-10, whenever a pre-recorded voice prompt was played at each $30$ seconds interval during the VR simulations.
 
-### Eye Tracking and  Head Tracking
-Utilizing the SRanipal SDK and Tobii eye tracking technology, we captured detailed eye-tracking metrics, including pupil diameter and gaze direction, sampled at 60 Hz.
+Participants rated their level of cybersickness on a scale of 1–10 at 30-second intervals, prompted by a pre-recorded voice cue during the VR simulation.
 
-### RelaxVR Demo 
-Automatic mode: https://drive.google.com/file/d/1mzK4MxbSnwvOyPSL7omY_IU0VqXAoGr1/view?usp=sharing 
+### Eye Tracking and Head Tracking
 
-Interactive mode: https://drive.google.com/file/d/1DN3EUEXb9wSHj1EyFrFksQTMWoP2qqQT/view?usp=sharing
+Using the HTC SRanipal SDK and Tobii eye tracking technology, we captured detailed eye-tracking metrics including pupil diameter and gaze direction, sampled at 60 Hz. Head-tracking data was also recorded throughout the session.
 
-## 📋 Click here to request access to the MazeSick dataset
-MazeSick dataset access link: https://docs.google.com/forms/d/e/1FAIpQLSfewFMiJLWpfGKqTc0EmC915emnBLN3SCqJHof-nKAGjAvglg/viewform
+---
 
+## RelaxVR Demo
 
+- **Automatic mode:** [Watch on Google Drive](https://drive.google.com/file/d/1mzK4MxbSnwvOyPSL7omY_IU0VqXAoGr1/view?usp=sharing)
+- **Interactive mode:** [Watch on Google Drive](https://drive.google.com/file/d/1DN3EUEXb9wSHj1EyFrFksQTMWoP2qqQT/view?usp=sharing)
 
+---
+
+## Dataset Access
+
+To request access to the MazeSick dataset:
+
+1. Fill out the request form: **[MazeSick Dataset Access Form](https://forms.gle/jvbiqP87az2xSJdm7)**
+2. Send an email to [hoquek@missouri.edu](mailto:hoquek@missouri.edu).
+
+---
+
+## Citation
+
+If this dataset is useful for your work, please cite our paper:
+
+<div class="highlight highlight-text-bibtex"><pre>
+@article{kundu2025relaxvr,
+  title={RelaxVR: Cybersickness Reduction in Immersive Virtual Reality through Explainable AI and Large Language Models},
+  author={Kundu, Ripan Kumar and Hoque, Khaza Anuarul},
+  journal={IEEE Access},
+  year={2025},
+  publisher={IEEE}
+}
+</pre></div>
+
+---
+
+## Contacts
+
+Maintained by [Khaza Anuarul Hoque](mailto:hoquek@missouri.edu).
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Acknowledgements
+
+- HTC SRanipal and Tobii HTC Vive Devkit for eye and head tracking support
+- Unity and OpenVR for virtual environment development
+- All participants who contributed their time to this study
