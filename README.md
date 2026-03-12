@@ -44,6 +44,25 @@ To request access to the MazeSick dataset:
 
 ---
 
+## Citation
+
+If this dataset is useful for your work, please cite our paper:
+
+<div class="highlight highlight-text-bibtex"><pre>
+@ARTICLE{10985746,
+  author={Kumar Kundu, Ripan and Anuarul Hoque, Khaza},
+  journal={IEEE Access}, 
+  title={RelaxVR: Cybersickness Reduction in Immersive Virtual Reality Through Explainable AI and Large Language Models}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={84689-84712},
+  keywords={Cybersickness;Gaze tracking;Solid modeling;Real-time systems;Heart rate;Explainable AI;Engines;Feature extraction;Pupils;Large language models;Cybersickness;explainable AI;virtual reality;large language model},
+  doi={10.1109/ACCESS.2025.3566958}}
+</pre></div>
+
+---
+
 ## Virtual Environment
 
 The virtual environment was a Dungeon-style maze created using Unity and OpenVR, featuring brick walls, brick platforms, and an open roof with an orange sky. The maze was structured as a 15 × 14 grid, with a trophy randomly spawned as the level objective. Reaching the trophy transports the user to the next randomly generated maze. Each maze is designed so that the user must explore at least half of it to ensure a consistent level of challenge.
@@ -100,24 +119,6 @@ Using the HTC SRanipal SDK and Tobii eye tracking technology, we captured detail
 
 ---
 
-## Citation
-
-If this dataset is useful for your work, please cite our paper:
-
-<div class="highlight highlight-text-bibtex"><pre>
-@ARTICLE{10985746,
-  author={Kumar Kundu, Ripan and Anuarul Hoque, Khaza},
-  journal={IEEE Access}, 
-  title={RelaxVR: Cybersickness Reduction in Immersive Virtual Reality Through Explainable AI and Large Language Models}, 
-  year={2025},
-  volume={13},
-  number={},
-  pages={84689-84712},
-  keywords={Cybersickness;Gaze tracking;Solid modeling;Real-time systems;Heart rate;Explainable AI;Engines;Feature extraction;Pupils;Large language models;Cybersickness;explainable AI;virtual reality;large language model},
-  doi={10.1109/ACCESS.2025.3566958}}
-</pre></div>
-
----
 
 ## Contacts
 
