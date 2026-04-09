@@ -25,7 +25,7 @@
 
 ## Introduction
 
-We collected the MazeSick dataset while participants navigated virtual mazes using a smooth locomotion technique (via controller) and performed coin collection tasks. The dataset was developed to facilitate the training of cybersickness prediction models for the [RelaxVR](https://ieeexplore.ieee.org/document/10908054) framework and is open-sourced to support further research in the cybersickness and VR community.
+We collected the MazeSick dataset while participants navigated virtual mazes using a smooth locomotion technique (via controller) and performed coin collection tasks. The dataset was developed to facilitate the training of cybersickness prediction models for the [RelaxVR]([https://ieeexplore.ieee.org/document/10908054](https://ieeexplore.ieee.org/document/10985746)) framework and is open-sourced to support further research in the cybersickness and VR community.
 
 ---
 
