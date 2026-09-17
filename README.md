@@ -117,7 +117,7 @@ Using the HTC SRanipal SDK and Tobii eye tracking technology, we captured detail
 
 Each row in the released dataset is a time-point sample containing synchronized eye-tracking, head-tracking, and FMS measurements. A few notes on how the dataset was prepared:
 
-- **Participant/session mapping:** Participant identifiers and other participant-level information were removed from the shared file for privacy and IRB-related reasons. No participant-identifiable mapping is available in the released dataset.
+- **Participant/session mapping:** Participant identifiers and other participant-level information were excluded from the shared dataset to protect participant privacy and comply with IRB requirements. No participant-identifiable mapping is available in the released dataset.
 - **Row order and timing:** Rows are arranged in chronological order based on the timestamps recorded in the raw data. The original timestamps were used to preserve the temporal sequence of the measurements, but the timestamp column was removed before the dataset was shared. The released dataset retains the original chronological order of the samples even though the timestamps themselves are not included.
 - **FMS assignment:** FMS ratings were collected every 30 seconds during the VR session. Each reported FMS value reflects the participant's cybersickness level over the preceding 30-second interval, and that value is assigned to every row (i.e., every XR sample) within that interval to temporally align the XR measurements with the reported rating.
 
